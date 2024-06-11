@@ -23,7 +23,7 @@
 
 .cabecalho p {
     font-size: 2rem;
-    color: #6BD1FF;
+    color: #343434;
 }
 
 @media (max-width: 576px) {
