@@ -18,7 +18,7 @@
                     </div>
                     <span>Modelo 1</span>
                 </label>
-                Prévia:
+                
                 <div class="modelo modelo1 ff-roboto-mono">
                     <img src="../../../../assets/imagens/modelo1.png" alt="Aspas azuis">
                     <p class="conteudo">{{ pensamento.conteudo }}</p>
@@ -34,7 +34,7 @@
                     </div>
                     <span>Modelo 2</span>
                 </label>
-                Prévia:
+                
                 <div class="modelo modelo2 ff-roboto-mono">
                     <img src="../../../../assets/imagens/modelo2.png" alt="Aspas azul claro" [(ngModel)] = "pensamento.modelo">
                     <p class="conteudo">{{ pensamento.conteudo }}</p>
@@ -50,7 +50,7 @@
                     </div>
                     <span>Modelo 3</span>
                 </label>
-                Prévia:
+                
                 <div class="modelo modelo3 ff-roboto-mono">
                     <img src="../../../../assets/imagens/modelo3.png" alt="Aspas verdes">
                     <p class="conteudo">{{ pensamento.conteudo }}</p>
@@ -61,7 +61,7 @@
 
         <div class="acoes">
             <button (click)="criarPensamento()" class="botao">Salvar</button>
-            <button (click)="cancelarPensamento()" class="botao">Cancelar</button>
+            <button routerLink="/listarPensamento" class="botao">Cancelar</button>
         </div>
     </form>
 </section>
