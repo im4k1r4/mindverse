@@ -1,7 +1,5 @@
 <section class="container criar-pensamentos ff-inter">
-    <header class="header">
-        <h2>Adicione um <br> novo pensamento:</h2>
-    </header>
+
     <form action="">
         <label for="pensamento">Pensamento</label>
         <input type="textarea" class="input" id="pensamento" name="pensamento" placeholder="Digite aqui o que você está pensando..." [(ngModel)]="pensamento.conteudo">
@@ -60,8 +58,8 @@
         </div>
 
         <div class="acoes">
-            <button (click)="criarPensamento()" class="botao">Salvar</button>
-            <button (click)="cancelarPensamento()" class="botao">Cancelar</button>
+            <button (click)="criarPensamento()" class="botao ff-inter">Salvar</button>
+            <button (click)="cancelarPensamento()" class="botao ff-inter">Cancelar</button>
         </div>
     </form>
 </section>

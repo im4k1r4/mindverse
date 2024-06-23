@@ -1,7 +1,6 @@
 <section class="container">
     <header class="header d-flex">
-        <h2 class="ff-inter">Meu mural</h2>
-        <button routerLink="/criarPensamento" class="botao">Adicionar pensamento</button>
+        <button routerLink="/criarPensamento" class="botao ff-inter">Adicionar</button>
     </header>
     <div class="mural" *ngIf="listaPensamentos.length > 0, else semPensamentos">
         <div *ngFor="let pensamento of listaPensamentos">

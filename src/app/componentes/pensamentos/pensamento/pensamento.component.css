@@ -18,7 +18,7 @@
 }
 
 .pensamento {
-    background-color: #F8F9FE;
+    background-color: #f0f0f0;
     padding: 1rem;
     box-sizing: border-box;
 }
@@ -37,11 +37,11 @@
 }
 
 .modelo2 {
-    box-shadow: 8px 8px 0px #6BD1FF;
+    box-shadow: 8px 8px 0px #2090D8;
 }
 
 .modelo3 {
-    box-shadow: 8px 8px 0px #84EEC1;
+    box-shadow: 8px 8px 0px #2090D8;
 }
 
 .pensamento-g {
