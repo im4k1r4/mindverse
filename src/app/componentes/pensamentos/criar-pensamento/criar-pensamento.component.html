@@ -44,7 +44,7 @@
             
             <div class="radio-modelo">
                 <label for="modelo3">
-                    <input type="radio" id="modelo3" value="modelo3" name="modelo-card">
+                    <input type="radio" id="modelo3" value="modelo3" name="modelo-card" [(ngModel)] = "pensamento.modelo">
                     <div class="custom-radio">
                         <span></span>
                     </div>
@@ -52,7 +52,7 @@
                 </label>
                 
                 <div class="modelo modelo3 ff-roboto-mono">
-                    <img src="../../../../assets/imagens/modelo3.png" alt="Aspas verdes">
+                    <img src="../../../../assets/imagens/modelo3.png" alt="Aspas azul claro" [(ngModel)] = "pensamento.modelo">
                     <p class="conteudo">{{ pensamento.conteudo }}</p>
                     <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
                 </div>
@@ -61,7 +61,7 @@
 
         <div class="acoes">
             <button (click)="criarPensamento()" class="botao">Salvar</button>
-            <button routerLink="/listarPensamento" class="botao">Cancelar</button>
+            <button (click)="cancelarPensamento()" class="botao">Cancelar</button>
         </div>
     </form>
 </section>
