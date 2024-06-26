@@ -1,34 +1,28 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "Que bom que vc veio",
-      "autoria": "Akira",
-      "modelo": "modelo1"
-    },
-    {
-      "conteudo": "TESTEEDIT",
-      "autoria": "TESTEEDIT",
-      "modelo": "modelo2",
-      "id": 8
-    },
-    {
-      "conteudo": "modelo2",
-      "autoria": "modelo2",
-      "modelo": "modelo2",
-      "id": 9
-    },
-    {
-      "conteudo": "modelo3",
-      "autoria": "modelo3",
+      "conteudo": "Lar é onde tem alguém sempre pensando em você.",
+      "autoria": "Naruto Uzumaki",
       "modelo": "modelo3",
-      "id": 11
+      "id": 1
     },
     {
-      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat dapibus est, ut mollis velit dapibus nec. Sed vulputate metus eget felis dignissim accumsan. Phasellus viverra pulvinar blandit. Duis pellentesque libero purus, in hendrerit leo rhoncus sit amet. Morbi laoreet, purus sit amet molestie aliquam, odio risus scelerisque felis, in pulvinar orci ex ut purus. Curabitur eu tempus elit. Suspendisse potenti. Cras molestie eu dui nec vulputate. Vestibulum congue nunc sed placerat lacinia. Aenean accumsan ultricies sapien ut tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi varius, risus vitae pharetra fermentum, dolor nisl.",
-      "autoria": "Lorem",
-      "modelo": "modelo2",
-      "id": 12
+      "conteudo": "Esqueça a vingança. O destino dos que procuram a vingança é sombrio. É trágico e você vai acabar sofrendo e se machucando ainda mais. Mesmo que você consiga sua vingança, a única coisa que vai persistir é o vazio.",
+      "autoria": "Hatake Kakashi",
+      "modelo": "modelo3",
+      "id": 2
+    },
+    {
+      "conteudo": "Faça ou não faça. Tentativa não há.",
+      "autoria": "Yoda",
+      "modelo": "modelo1",
+      "id": 3
+    },
+    {
+      "conteudo": "O que queremos na vida é às vezes muito diferente do que precisamos.",
+      "autoria": "Na Natureza Selvagem",
+      "modelo": "modelo1",
+      "id": 4
     }
   ]
 }
