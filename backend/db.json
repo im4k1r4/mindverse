@@ -7,12 +7,6 @@
       "modelo": "modelo1"
     },
     {
-      "conteudo": "asdfsadfsad",
-      "autoria": "safsdaf",
-      "modelo": "modelo3",
-      "id": 7
-    },
-    {
       "conteudo": "dasdasdas",
       "autoria": "asdasd",
       "modelo": "modelo1",
@@ -35,12 +29,6 @@
       "autoria": "Lorem",
       "modelo": "modelo2",
       "id": 12
-    },
-    {
-      "conteudo": "Do or do not, there is no try",
-      "autoria": "Yoda",
-      "modelo": "modelo2",
-      "id": 13
     }
   ]
 }

@@ -17,13 +17,10 @@
   
   .criar-pensamentos form {
     background: #C0C0C0;
-  
     border: none;
     border-radius: 20px;
-  
     display: flex;
     flex-direction: column;
-  
     padding: 2rem;
   }
   
@@ -58,7 +55,6 @@
   .modelos {
     display: flex;
     gap: 2.5rem;
-    border: 1px solid red;
   }
   
   .modelo {
