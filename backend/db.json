@@ -23,6 +23,24 @@
       "autoria": "Na Natureza Selvagem",
       "modelo": "modelo1",
       "id": 4
+    },
+    {
+      "conteudo": "Eu nunca dou risada se posso evitar. Mostrar os dentes é um sinal de submissão nos primatas. Quando alguém sorri para mim, tudo que vejo é um chimpanzé implorando por sua vida.",
+      "autoria": "Dwight Schrute",
+      "modelo": "modelo2",
+      "id": 5
+    },
+    {
+      "conteudo": "Wish we could turn back time to the good old days, when our momma sang us to sleep, but now we're stressed out!",
+      "autoria": "Twenty One Pilots",
+      "modelo": "modelo3",
+      "id": 6
+    },
+    {
+      "conteudo": "⁠Às vezes eu começo uma frase sem saber como ela vai terminar. Eu só torço para que ela chegue em algum lugar.",
+      "autoria": "Michael Scott",
+      "modelo": "modelo3",
+      "id": 7
     }
   ]
 }
