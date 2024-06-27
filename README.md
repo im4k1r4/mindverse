@@ -4,7 +4,7 @@
 Este projeto, desenvolvido em Angular, é um CRUD completo que permite aos usuários adicionar, editar e excluir pensamentos, trechos de músicas, de livros, entre outros. Além disso, oferece três modelos de card para exibir os trechos salvos.
 
 ## Demo
-![Demonstração em GIF]()
+![Demonstração em GIF](src/assets/imagens/Demo.gif)
 
 ## Tecnologias Utilizadas
 - HTML
@@ -34,7 +34,7 @@ Escolha entre três modelos de card para exibição.
 This project, developed in Angular, is a complete CRUD that allows users to add, edit, and delete thoughts, music excerpts, book excerpts, and more. Additionally, it offers three card templates to display the saved excerpts.
 
 ## Demo
-![Demonstração em GIF]()
+![Demonstração em GIF](src/assets/imagens/Demo.gif)
 
 ## Technologies 
 - HTML
