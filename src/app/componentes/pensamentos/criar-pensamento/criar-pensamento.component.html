@@ -1,16 +1,16 @@
 <section class="container criar-pensamentos ff-inter">
 
-    <form action="">
+    <form [formGroup]="formulario">
         <label for="pensamento">Pensamento</label>
-        <input type="textarea" class="input" id="pensamento" name="pensamento" placeholder="Digite aqui o que você está pensando..." [(ngModel)]="pensamento.conteudo">
+        <input type="textarea" class="input" id="pensamento" formControlName="conteudo" placeholder="Digite aqui o que você está pensando...">
         <label for="autoria">Autoria</label>
-        <input type="textarea" class="input" id="autoria" name="autoria" placeholder="Quem é o autor?" [(ngModel)]="pensamento.autoria">
+        <input type="textarea" class="input" id="autoria" formControlName="autoria" placeholder="Quem é o autor?">
 
         <label for="modelo">Selecione o estilo do card:</label>
         <div class="container-radio">
             <div class="radio-modelo">
                 <label for="modelo1">
-                    <input type="radio" id="modelo1" value="modelo1" name="modelo-card" [(ngModel)] = "pensamento.modelo">
+                    <input type="radio" id="modelo1" value="modelo1" formControlName="modelo">
                     <div class="custom-radio">
                         <span></span>
                     </div>
@@ -19,14 +19,14 @@
                 
                 <div class="modelo modelo1 ff-roboto-mono">
                     <img src="../../../../assets/imagens/modelo1.png" alt="Aspas azuis">
-                    <p class="conteudo">{{ pensamento.conteudo }}</p>
-                    <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
+                    <p class="conteudo">{{ formulario.get('conteudo')?.value }}</p>
+                    <p class="autoria"><b>{{formulario.get('autoria')?.value }}</b></p>
                 </div>
             </div>
 
             <div class="radio-modelo">
                 <label for="modelo2">
-                    <input type="radio" id="modelo2" value="modelo2" name="modelo-card" [(ngModel)] = "pensamento.modelo">
+                    <input type="radio" id="modelo2" value="modelo2" formControlName="modelo">
                     <div class="custom-radio">
                         <span></span>
                     </div>
@@ -34,15 +34,15 @@
                 </label>
                 
                 <div class="modelo modelo2 ff-roboto-mono">
-                    <img src="../../../../assets/imagens/modelo2.png" alt="Aspas azul claro" [(ngModel)] = "pensamento.modelo">
-                    <p class="conteudo">{{ pensamento.conteudo }}</p>
-                    <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
+                    <img src="../../../../assets/imagens/modelo2.png" alt="Aspas azul claro">
+                    <p class="conteudo">{{ formulario.get('conteudo')?.value }}</p>
+                    <p class="autoria"><b>{{formulario.get('autoria')?.value }}</b></p>
                 </div>
             </div>
             
             <div class="radio-modelo">
                 <label for="modelo3">
-                    <input type="radio" id="modelo3" value="modelo3" name="modelo-card" [(ngModel)] = "pensamento.modelo">
+                    <input type="radio" id="modelo3" value="modelo3" formControlName="modelo">
                     <div class="custom-radio">
                         <span></span>
                     </div>
@@ -50,9 +50,9 @@
                 </label>
                 
                 <div class="modelo modelo3 ff-roboto-mono">
-                    <img src="../../../../assets/imagens/modelo3.png" alt="Aspas azul claro" [(ngModel)] = "pensamento.modelo">
-                    <p class="conteudo">{{ pensamento.conteudo }}</p>
-                    <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
+                    <img src="../../../../assets/imagens/modelo3.png" alt="Aspas azul claro">
+                    <p class="conteudo">{{ formulario.get('conteudo')?.value }}</p>
+                    <p class="autoria"><b>{{formulario.get('autoria')?.value }}</b></p>
                 </div>
             </div>
         </div>
