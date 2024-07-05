@@ -3,9 +3,17 @@
     <form [formGroup]="formulario">
         <label for="pensamento">Pensamento</label>
         <input type="textarea" class="input" id="pensamento" formControlName="conteudo" placeholder="Digite aqui o que você está pensando...">
+        <div class="mensagem__erro" *ngIf="formulario.get('conteudo')?.errors && formulario.get('conteudo')?.touched">
+            Você não inseriu nenhum pensamento...
+        </div>
         <label for="autoria">Autoria</label>
         <input type="textarea" class="input" id="autoria" formControlName="autoria" placeholder="Quem é o autor?">
-
+        <div class="mensagem__erro" *ngIf="formulario.get('autoria')?.errors?.['required'] && formulario.get('autoria')?.touched">
+            É necessário inserir o autor...
+        </div>
+        <div class="mensagem__erro" *ngIf="formulario.get('autoria')?.errors?.['minlength'] && formulario.get('autoria')?.touched">
+            Aqui o mínimo é de 3 caracteres...
+        </div>
         <label for="modelo">Selecione o estilo do card:</label>
         <div class="container-radio">
             <div class="radio-modelo">
@@ -58,7 +66,7 @@
         </div>
 
         <div class="acoes">
-            <button (click)="criarPensamento()" class="botao ff-inter">Salvar</button>
+            <button [disabled]="!formulario.valid" [ngClass]="habilitarBotao()" (click)="criarPensamento()" class="ff-inter">Salvar</button>
             <button (click)="cancelarPensamento()" class="botao ff-inter">Cancelar</button>
         </div>
     </form>
