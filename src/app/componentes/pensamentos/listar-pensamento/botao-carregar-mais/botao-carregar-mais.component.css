@@ -1,0 +1,16 @@
+.carregar-mais {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.mensagem-center {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #48B4F8;
+}
