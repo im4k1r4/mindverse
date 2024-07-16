@@ -31,7 +31,8 @@ export class CriarPensamentoComponent {
         Validators.minLength(3),
         minusculoValidator
       ])],
-      modelo: ['modelo1']
+      modelo: ['modelo1'],
+      favorito: [false]
     })
   }
 

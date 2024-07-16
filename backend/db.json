@@ -4,49 +4,50 @@
       "conteudo": "Lar é onde tem alguém sempre pensando em você.",
       "autoria": "Naruto Uzumaki",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 1
     },
     {
       "conteudo": "Esqueça a vingança. O destino dos que procuram a vingança é sombrio. É trágico e você vai acabar sofrendo e se machucando ainda mais. Mesmo que você consiga sua vingança, a única coisa que vai persistir é o vazio.",
       "autoria": "Hatake Kakashi",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 2
     },
     {
       "conteudo": "Faça ou não faça. Tentativa não há.",
       "autoria": "Yoda",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 3
     },
     {
       "conteudo": "O que queremos na vida é às vezes muito diferente do que precisamos.",
       "autoria": "Na Natureza Selvagem",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 4
     },
     {
       "conteudo": "Eu nunca dou risada se posso evitar. Mostrar os dentes é um sinal de submissão nos primatas. Quando alguém sorri para mim, tudo que vejo é um chimpanzé implorando por sua vida.",
       "autoria": "Dwight Schrute",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 5
     },
     {
       "conteudo": "Wish we could turn back time to the good old days, when our momma sang us to sleep, but now we're stressed out!",
       "autoria": "Twenty One Pilots",
       "modelo": "modelo3",
+      "favorito": true,
       "id": 6
     },
     {
       "conteudo": "⁠Às vezes eu começo uma frase sem saber como ela vai terminar. Eu só torço para que ela chegue em algum lugar.",
       "autoria": "Michael Scott",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 7
-    },
-    {
-      "conteudo": "Tudo é impossível até que alguém o faça.",
-      "autoria": "bruce wayne",
-      "modelo": "modelo2",
-      "id": 8
     }
   ]
 }
