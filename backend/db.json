@@ -12,7 +12,7 @@
       "conteudo": "Naruto",
       "autoria": "Hatake Kakashi",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "conteudo": "Faça ou não faça. Tentativa não há.",
@@ -25,7 +25,7 @@
       "conteudo": "O que queremos na vida é às vezes muito diferente do que precisamos.",
       "autoria": "Na Natureza Selvagem",
       "modelo": "modelo1",
-      "favorito": true,
+      "favorito": false,
       "id": 4
     },
     {
