@@ -9,10 +9,6 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./editar-pensamento.component.css']
 })
 export class EditarPensamentoComponent implements OnInit {
-pensamento: any;
-cancelarPensamento() {
-throw new Error('Method not implemented.');
-}
 
   formulario!: FormGroup;
 

@@ -9,8 +9,13 @@
             [(ngModel)] = "filtro"
             (keyup)="pesquisarPensamentos()">
             <img src="../../../../assets/imagens/lupa.png" alt="Ícone para procurar">
-        </div>  
-        <button routerLink="/criarPensamento" class="botao ff-inter">Adicionar</button>
+        </div>
+        <div class="botoes">
+            <button class="botao ff-inter">Início</button>
+            <button class="botao ff-inter" (click)="listarFavoritos()">Favoritos</button>
+            <button routerLink="/criarPensamento" class="botao ff-inter">Adicionar</button>
+        </div> 
+        
     </header>
     <div class="mural" *ngIf="listaPensamentos.length > 0, else semPensamentos">
         <div *ngFor="let pensamento of listaPensamentos">

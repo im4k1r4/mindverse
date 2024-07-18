@@ -1,3 +1,14 @@
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botoes button {
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
 .mural {
     display: flex;
     flex-wrap: wrap;

@@ -4,15 +4,15 @@
       "conteudo": "Lar é onde tem alguém sempre pensando em você.",
       "autoria": "Naruto Uzumaki",
       "modelo": "modelo3",
-      "favorito": false,
+      "favorito": true,
       "id": 1
     },
     {
-      "conteudo": "Esqueça a vingança. O destino dos que procuram a vingança é sombrio. É trágico e você vai acabar sofrendo e se machucando ainda mais. Mesmo que você consiga sua vingança, a única coisa que vai persistir é o vazio.",
+      "id": 2,
+      "conteudo": "Naruto",
       "autoria": "Hatake Kakashi",
-      "modelo": "modelo3",
-      "favorito": false,
-      "id": 2
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "conteudo": "Faça ou não faça. Tentativa não há.",
@@ -25,15 +25,15 @@
       "conteudo": "O que queremos na vida é às vezes muito diferente do que precisamos.",
       "autoria": "Na Natureza Selvagem",
       "modelo": "modelo1",
-      "favorito": false,
+      "favorito": true,
       "id": 4
     },
     {
+      "id": 5,
       "conteudo": "Eu nunca dou risada se posso evitar. Mostrar os dentes é um sinal de submissão nos primatas. Quando alguém sorri para mim, tudo que vejo é um chimpanzé implorando por sua vida.",
-      "autoria": "Dwight Schrute",
+      "autoria": "dwight schrute",
       "modelo": "modelo2",
-      "favorito": false,
-      "id": 5
+      "favorito": false
     },
     {
       "conteudo": "Wish we could turn back time to the good old days, when our momma sang us to sleep, but now we're stressed out!",
